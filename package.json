@@ -1,0 +1,22 @@
+{
+  "name": "create-raureif",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "execa": "^0.6.3",
+    "raureif": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "bin": {
+    "create-raureif": "index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

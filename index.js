@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var execa = require('execa');
+
+var args = ['new'];
+for (var i = 2; i < process.argv.length; i++) {
+  args.push(process.argv[i]);
+}
+
+execa('raureif', args, { stdio: 'inherit' });
